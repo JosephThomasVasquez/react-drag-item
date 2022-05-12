@@ -5,10 +5,10 @@ import CardList from "./cards/CardList";
 function App() {
   return (
     <DndProvider backend={HTML5Backend}>
-      <div className="App">
-        <div className="container mx-auto">
+      <div>
+        <div className="box-border container mx-auto p-4">
           <h2 className="text-3xl font-bold underline">Drag</h2>
-          <div className="row">
+          <div className="grid-flow-row">
             <CardList />
           </div>
         </div>
